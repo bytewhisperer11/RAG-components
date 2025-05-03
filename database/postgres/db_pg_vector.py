@@ -1,7 +1,7 @@
 # db_layer/db_layer_pg.py
 
 import psycopg2
-from db_layer.config import get_db_config
+from postgres.config import get_db_config
 import numpy as np
 
 class PGVectorDB:
