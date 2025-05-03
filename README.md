@@ -1,5 +1,7 @@
 # RAG-components
 
+> ⚠️ **Work in Progress**: This repository is actively being developed. Features, structure, and documentation are subject to change.
+
 ## Overview
 
 RAG-components is a modular set of components designed to facilitate the integration and utilization of Retrieval-Augmented Generation (RAG) techniques in machine learning workflows. This repository contains reusable components to enable fast, scalable, and efficient RAG-based applications, including but not limited to document retrieval, embedding management, and text generation.
@@ -29,7 +31,6 @@ The `RAG-components` repository includes functionality to interact with various 
 ### Supported Databases
 
 - **PostgreSQL**: For relational storage of documents, queries, and embeddings.
-technologies.
 
 ### Configuration
 
