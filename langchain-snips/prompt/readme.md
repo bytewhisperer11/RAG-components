@@ -28,4 +28,6 @@ Each prompt interface serves a unique role in modeling or interacting with LLMs 
 | `5_ai_prompt.py` | `AIMessagePromptTemplate` | Models AI's expected or intermediate response formatting. |
 | `6_messages_placeholder.py` | `MessagesPlaceholder` | Enables injection of prior conversation history into a prompt chain. |
 
+<img src="sequence.svg" alt="LangChain Agent Flowchart" alt="Agent Flow" width="1200" height="800" />
+
 
