@@ -1,5 +1,5 @@
 from langchain_anthropic import ChatAnthropic
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain.schema import HumanMessage, SystemMessage  # updated import
 
 llm = ChatAnthropic(
     model="claude-3-opus-20240229",

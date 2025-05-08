@@ -1,8 +1,9 @@
-from langchain_together import ChatTogether
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain.chat_models import init_chat_model
+from langchain.schema import HumanMessage, SystemMessage
 
-llm = ChatTogether(
-    model="mistralai/Mistral-7B-Instruct-v0.1",
+llm = init_chat_model(
+    "mistralai/Mistral-7B-Instruct-v0.1",
+    model_provider="together",
     temperature=0.7,
     top_p=0.9,
     top_k=50,

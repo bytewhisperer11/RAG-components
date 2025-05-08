@@ -1,8 +1,9 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain.chat_models import init_chat_model
+from langchain.schema import HumanMessage, SystemMessage
 
-llm = ChatGoogleGenerativeAI(
-    model="gemini-pro",
+llm = init_chat_model(
+    "gemini-pro",
+    model_provider="google_genai",
     temperature=0.7,
     top_p=1.0,
     top_k=40,
